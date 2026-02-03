@@ -1,6 +1,5 @@
 public class Palindrome {
     public static void main(String[] args) {
-        
         int originalNumber = 121;
         int number = originalNumber;
         int invertedNumber = 0;
