@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class StudentAverage {
     public static void main(String[] args) {
     Scanner n = new Scanner(System.in);
+    n.useLocale(java.util.Locale.US);
     ArrayList <Double> grades = new ArrayList <>();
     
     System.out.print("Enter the student's name: ");
