@@ -19,7 +19,7 @@ class Solution {
             
 
             if(nums[i] + nums[j] == target){
-                System.out.println("The sum of "+nums[i]+" and "+nums[i+1]+" is iqual to "+target);
+                System.out.println("The sum of "+nums[i]+" and "+nums[j]+" is iqual to "+target);
                 
                 return new int[]{i, j};
 
