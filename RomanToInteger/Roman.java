@@ -1,6 +1,6 @@
 public class Roman{
     public static void main(String[] args) {
-        String take = "IIIL";
+        String take = "XLVII";
         int total = 0;
 
         for(int e = 0; e < take.length();e++){
