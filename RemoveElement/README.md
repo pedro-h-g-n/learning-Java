@@ -24,10 +24,3 @@ No final, utilizei um segundo loop para preencher as posições restantes com `0
 2.  Compile o arquivo: `javac RemoveElement.java`
 3.  Execute: `java RemoveElement`
 4.  O console mostrará o array antes e depois da filtragem.
-
----
-
-### 🧠 Analogia para Estudo
-Imagine que você está organizando uma **cafeteira**. Você tem uma fila de xícaras (`array`), mas algumas estão sujas (`val`).
-
-Você começa a olhar uma por uma (`i`). Se a xícara estiver limpa, você a coloca na primeira posição disponível da prateleira de servir (`k`) e avança para a próxima posição livre (`k++`). Se a xícara estiver suja, você apenas a pula. No final, todas as suas xícaras limpas estão enfileiradas perfeitamente no início da prateleira.
