@@ -1,4 +1,4 @@
-# PrimeiroProjetoSeguro (Java)
+# PrimeiroProjetoSeguro
 
 Este é um projeto didático desenvolvido para demonstrar conceitos fundamentais de **Secure Code** em Java. O foco principal é a validação e o tratamento de entradas de dados para prevenir comportamentos inesperados.
 
