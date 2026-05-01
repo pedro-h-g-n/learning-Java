@@ -1,4 +1,4 @@
-# PrimeiroProjetoSeguro
+# PrimeiroProjetoSeguro (Java)
 
 Este é um projeto didático desenvolvido para demonstrar conceitos fundamentais de **Secure Code** em Java. O foco principal é a validação e o tratamento de entradas de dados para prevenir comportamentos inesperados.
 
@@ -8,9 +8,9 @@ Este é um projeto didático desenvolvido para demonstrar conceitos fundamentais
 
 O código implementa práticas de higiene de dados para garantir que a entrada do usuário seja processada de forma íntegra:
 
-* **Sanitização de Entrada:** Utiliza o método `.replace("'", "")` para remover aspas simples, uma medida básica de prevenção contra ataques de injeção (como SQL Injection).
-* **Normalização de Dados:** Aplica `.trim()` para remover espaços em branco desnecessários no início e no fim da string, evitando erros de lógica e armazenamento.
-* **Validação de Presença:** Verifica se o campo está vazio após o processamento, impedindo o registro de usuários nulos ou sem identificação.
+* **Sanitização de Entrada:** Utiliza o método `.replace("'", "")` para remover aspas simples, uma medida básica de prevenção contra ataques de injeção.
+* **Normalização de Dados:** Aplica `.trim()` para remover espaços em branco desnecessários no início e no fim da string.
+* **Validação de Presença:** Verifica se o campo está vazio após o processamento, impedindo o registro de usuários nulos.
 
 ---
 
@@ -24,5 +24,5 @@ O código implementa práticas de higiene de dados para garantir que a entrada d
 
 ## Tecnologias
 
-* **Linguagem:** Java
-* **Biblioteca:** `java.util.Scanner`
+* **Linguagem:** Java.
+* **Biblioteca:** `java.util.Scanner`.
