@@ -1,23 +1,28 @@
-PrimeiroProjetoSeguro (Java)
- Sobre o Projeto
-Este é um projeto didático desenvolvido para demonstrar conceitos fundamentais de Segurança de Código (Secure Coding) em Java. O foco principal é a validação e o tratamento de entradas de dados (input handling) para prevenir comportamentos inesperados.
+# PrimeiroProjetoSeguro (Java)
 
- Funcionalidades de Segurança
+Este é um projeto didático desenvolvido para demonstrar conceitos fundamentais de **Secure Code** em Java. O foco principal é a validação e o tratamento de entradas de dados para prevenir comportamentos inesperados.
+
+---
+
+## Funcionalidades de Segurança
+
 O código implementa práticas de higiene de dados para garantir que a entrada do usuário seja processada de forma íntegra:
 
-Sanitização de Entrada: Utiliza o método .replace("'", "") para remover aspas simples, uma medida básica de prevenção contra ataques de injeção (como SQL Injection).
+* **Sanitização de Entrada:** Utiliza o método `.replace("'", "")` para remover aspas simples, uma medida básica de prevenção contra ataques de injeção (como SQL Injection).
+* **Normalização de Dados:** Aplica `.trim()` para remover espaços em branco desnecessários no início e no fim da string, evitando erros de lógica e armazenamento.
+* **Validação de Presença:** Verifica se o campo está vazio após o processamento, impedindo o registro de usuários nulos ou sem identificação.
 
-Normalização de Dados: Aplica .trim() para remover espaços em branco desnecessários no início e no fim da string, evitando erros de lógica e armazenamento.
+---
 
-Validação de Presença: Verifica se o campo está vazio após o processamento, impedindo o registro de usuários nulos ou sem identificação.
+## Como Executar
 
- Como Executar
-Pré-requisitos
-Java JDK 8 ou superior instalado.
+### Pré-requisitos
+* Java JDK 8 ou superior instalado.
+* Terminal ou IDE de sua preferência (VS Code, IntelliJ, Eclipse).
 
-Terminal ou IDE de sua preferência (VS Code, IntelliJ, Eclipse).
+---
 
-Tecnologias
-Linguagem: Java
+## Tecnologias
 
-Biblioteca: java.util.Scanner
+* **Linguagem:** Java
+* **Biblioteca:** `java.util.Scanner`
